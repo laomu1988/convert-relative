@@ -25,17 +25,19 @@ console.log(result)
 ```
 
 ## api
+
 * link(link, baseUrl) 转换地址为相对地址
   - @param {string} link: 被转换的地址
   - @param {string} baseUrl: 基础地址
   - @return {string} 转换后的地址
+
 * html(html, baseUrl) 转换html中内容的地址为相对地址
-- @param {string} html: 被转换的html内容
-- @param {string} baseUrl: 基础地址
-- @return {object}
-      - changed: 修改的地址个数
-      - html:    修改后的文档内容
-      - links:  {array} 网页中引用的链接地址（已转换为绝对地址）
+  - @param {string} html: 被转换的html内容
+  - @param {string} baseUrl: 基础地址
+  - @return {object}
+       changed: 修改的地址个数
+       html:    修改后的文档内容
+       links:  {array} 网页中引用的链接地址（已转换为绝对地址）
 
 
 ## 测试
