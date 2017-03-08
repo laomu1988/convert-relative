@@ -35,9 +35,9 @@ console.log(result)
   - @param {string} html: 被转换的html内容
   - @param {string} baseUrl: 基础地址
   - @return {object}
-       changed: 修改的地址个数
-       html:    修改后的文档内容
-       links:  {array} 网页中引用的链接地址（已转换为绝对地址）
+       * changed: 修改的地址个数
+       * html:    修改后的文档内容
+       * links:  {array} 网页中引用的链接地址（已转换为绝对地址）
 
 
 ## 测试

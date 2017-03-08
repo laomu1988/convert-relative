@@ -1,8 +1,8 @@
 {
   "name": "convert-relative",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "convert link to relative.转换地址为相对地址",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test/test.test.js",
     "push": "nrm use npm && npm version patch && npm publish",
