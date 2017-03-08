@@ -2,17 +2,17 @@
 
 ## demo
 
-```
+```js
 var convert = require('convert-relative')
 
 // 转换链接地址
-var link = convert.link('/test/test.js','http://www.test.com/test/index.html')
-console.log(link);
+var link = convert.link('/test/test.js', 'http://www.test.com/test/index.html')
+console.log(link)
 // 将输出 'test.js'
 
 // 转换html，将html内容中的所有引用地址改为相对地址
-var result = convert.html('<a href="/test.html">test</a>','http://www.test.com/test/index.html')
-console.log(result);
+var result = convert.html('<a href="/test.html">test</a>', 'http://www.test.com/test/index.html')
+console.log(result)
 /** 将输出
 *  {
 *     changed: 1,
