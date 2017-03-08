@@ -1,6 +1,6 @@
 {
   "name": "convert-relative",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert link to relative.转换地址为相对地址",
   "main": "lib/index.js",
   "scripts": {
